@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: demo
     spec:
       containers:
-      - image: tushar.azurecr.io/demoimage
-        name: demo
+      - image: <<image_location>>
+        name: <<image_name>>
         ports:
         - containerPort: 8080
